@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <!-- Shadow -->
+  <ellipse cx="300" cy="540" rx="200" ry="30" fill="rgba(0,0,0,0.12)"/>
+  
+  <!-- Base -->
+  <rect x="190" y="440" width="220" height="100" rx="10" fill="#4A4A4A"/>
+  <rect x="210" y="480" width="180" height="40" rx="6" fill="#333"/>
+  <rect x="230" y="510" width="140" height="15" rx="4" fill="#222"/>
+  
+  <!-- Main Body Shadow -->
+  <rect x="195" y="140" width="210" height="310" rx="20" fill="#a4161a"/>
+  
+  <!-- Main Body -->
+  <rect x="200" y="140" width="200" height="310" rx="18" fill="#DC143C"/>
+  <rect x="210" y="150" width="180" height="280" rx="14" fill="#E63946"/>
+  
+  <!-- Top dome -->
+  <rect x="200" y="120" width="200" height="40" rx="20" fill="#DC143C"/>
+  <rect x="220" y="115" width="160" height="20" rx="10" fill="#FFD700"/>
+  <text x="300" y="130" text-anchor="middle" fill="#333" font-size="14" font-weight="bold" font-family="Arial">FUEL STATION</text>
+  
+  <!-- Display Screen (Main) -->
+  <rect x="230" y="160" width="140" height="70" rx="8" fill="#0a0a1a"/>
+  <rect x="240" y="168" width="120" height="54" rx="6" fill="#1a1a2e"/>
+  <text x="300" y="198" text-anchor="middle" fill="#00ff88" font-size="28" font-family="monospace" font-weight="bold">Rs. 42.50</text>
+  <text x="300" y="218" text-anchor="middle" fill="#66ff99" font-size="12" font-family="monospace">AMOUNT</text>
+  
+  <!-- Meter Panel -->
+  <rect x="230" y="250" width="140" height="90" rx="8" fill="#f5f5f5"/>
+  <rect x="240" y="258" width="120" height="74" rx="6" fill="#e9ecef"/>
+  
+  <!-- Meter Gauge -->
+  <line x1="250" y1="280" x2="350" y2="280" stroke="#999" stroke-width="3"/>
+  <line x1="250" y1="295" x2="350" y2="295" stroke="#999" stroke-width="3"/>
+  <line x1="250" y1="310" x2="350" y2="310" stroke="#999" stroke-width="3"/>
+  <circle cx="300" cy="295" r="12" fill="#DC143C"/>
+  <circle cx="300" cy="295" r="6" fill="#ff6b6b"/>
+  
+  <!-- Meter Labels -->
+  <text x="255" y="278" fill="#666" font-size="8" font-family="Arial">0</text>
+  <text x="340" y="278" fill="#666" font-size="8" font-family="Arial">F</text>
+  
+  <!-- Buttons -->
+  <circle cx="245" cy="310" r="8" fill="#00ff00"/>
+  <circle cx="265" cy="310" r="8" fill="#ffaa00"/>
+  <circle cx="285" cy="310" r="8" fill="#ff0000"/>
+  <circle cx="305" cy="310" r="8" fill="#00aaff"/>
+  <circle cx="325" cy="310" r="8" fill="#ff00ff"/>
+  
+  <!-- Button Labels -->
+  <text x="245" y="326" text-anchor="middle" fill="#333" font-size="6" font-weight="bold">ON</text>
+  <text x="265" y="326" text-anchor="middle" fill="#333" font-size="6" font-weight="bold">OFF</text>
+  <text x="285" y="326" text-anchor="middle" fill="#333" font-size="6" font-weight="bold">OK</text>
+  
+  <!-- Brand/Logo Area -->
+  <rect x="230" y="360" width="140" height="30" rx="6" fill="#FFD700"/>
+  <rect x="235" y="365" width="130" height="20" rx="4" fill="#FFC107"/>
+  <text x="300" y="380" text-anchor="middle" fill="#333" font-size="16" font-weight="bold" font-family="Arial">⛽ PETROL ⛽</text>
+  
+  <!-- Price Display Area -->
+  <rect x="230" y="400" width="140" height="35" rx="6" fill="#2c3e50"/>
+  <text x="300" y="418" text-anchor="middle" fill="#00ff88" font-size="14" font-family="monospace" font-weight="bold">GALLON: 3.25</text>
+  <text x="300" y="430" text-anchor="middle" fill="#ffaa00" font-size="10" font-family="monospace">PREMIUM FUEL</text>
+  
+  <!-- Nozzle Holder -->
+  <rect x="385" y="260" width="40" height="80" rx="10" fill="#666"/>
+  <rect x="390" y="270" width="30" height="60" rx="6" fill="#555"/>
+  <rect x="395" y="280" width="20" height="40" rx="4" fill="#444"/>
+  
+  <!-- Nozzle Support Bracket -->
+  <rect x="380" y="320" width="50" height="10" rx="3" fill="#777"/>
+  
+  <!-- Nozzle -->
+  <path d="M425 290 L450 280 L460 265 L460 250" stroke="#888" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M460 245 L465 238 L470 235" stroke="#888" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="470" cy="233" r="8" fill="#333"/>
+  <circle cx="470" cy="233" r="4" fill="#555"/>
+  
+  <!-- Nozzle Handle -->
+  <rect x="435" y="275" width="15" height="30" rx="5" fill="#666" transform="rotate(-20, 442, 290)"/>
+  
+  <!-- Hose pipe -->
+  <path d="M425 310 Q480 320 490 380 Q495 430 470 445 Q440 460 410 440" 
+        stroke="#222" stroke-width="14" fill="none"/>
+  <path d="M425 310 Q480 320 490 380 Q495 430 470 445 Q440 460 410 440" 
+        stroke="#444" stroke-width="8" fill="none"/>
+  
+  <!-- Hose Connector -->
+  <circle cx="425" cy="310" r="10" fill="#555"/>
+  <circle cx="425" cy="310" r="6" fill="#444"/>
+  
+  <!-- Fuel drops falling -->
+  <circle cx="478" cy="225" r="6" fill="#ff6b35" opacity="0.9"/>
+  <circle cx="488" cy="218" r="4" fill="#ff6b35" opacity="0.7"/>
+  <circle cx="495" cy="210" r="3" fill="#ff6b35" opacity="0.5"/>
+  
+  <!-- Fuel Splash Effect -->
+  <path d="M475 220 L480 215 L485 220" stroke="#ff6b35" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M480 225 L485 220 L490 225" stroke="#ff6b35" stroke-width="2" fill="none" opacity="0.4"/>
+  
+  <!-- LED Indicators on top -->
+  <circle cx="260" cy="135" r="6" fill="#00ff00"/>
+  <circle cx="260" cy="135" r="3" fill="#66ff66"/>
+  <circle cx="300" cy="135" r="6" fill="#00ff88"/>
+  <circle cx="300" cy="135" r="3" fill="#66ff99"/>
+  <circle cx="340" cy="135" r="6" fill="#ffaa00"/>
+  <circle cx="340" cy="135" r="3" fill="#ffcc66"/>
+  
+  <!-- Side Panel Details -->
+  <rect x="200" y="155" width="10" height="200" rx="3" fill="#c1121f" opacity="0.5"/>
+  <rect x="390" y="155" width="10" height="200" rx="3" fill="#c1121f" opacity="0.5"/>
+  
+  <!-- Floor Base Detail -->
+  <rect x="180" y="530" width="240" height="15" rx="5" fill="#555"/>
+  <rect x="200" y="540" width="200" height="10" rx="3" fill="#333"/>
+  
+  <!-- Ventilation Grille -->
+  <line x1="220" y1="450" x2="220" y2="480" stroke="#666" stroke-width="2"/>
+  <line x1="230" y1="450" x2="230" y2="480" stroke="#666" stroke-width="2"/>
+  <line x1="240" y1="450" x2="240" y2="480" stroke="#666" stroke-width="2"/>
+  <line x1="250" y1="450" x2="250" y2="480" stroke="#666" stroke-width="2"/>
+  
+  <!-- Glow/Highlight Effect -->
+  <rect x="210" y="160" width="30" height="200" rx="10" fill="rgba(255,255,255,0.05)"/>
+  <rect x="360" y="160" width="30" height="200" rx="10" fill="rgba(255,255,255,0.03)"/>
+</svg>
